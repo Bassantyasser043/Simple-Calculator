@@ -1,0 +1,87 @@
+.display{
+background-color:#3d4543;  
+height:450px;  
+width:320px;  
+border-radius:10px;  
+position:relative;  
+top:80px;  
+left:40%;  
+}
+.res{
+font-style: oblique;
+color: #6f6f6f;
+text-align: right;
+padding: 1.5% !important;
+font-size: 18px;
+}
+.display3{
+    background-color:red;
+    height:425px;  
+    width:320px;  
+    border-radius:10px;  
+    top:80px;  
+    left:40%;  
+    }
+.boxprint{
+    width:250px;  
+    position:relative;  
+    left:35px;
+    right:35px;  
+    top:20px;  
+    height:55px; 
+    background-color:beige; 
+    text-align: auto; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+}
+.button{
+    color:white;  
+    background-color:#6f6f6f;  
+    text-align: center;
+    text-justify: auto;
+    font-display:auto ;
+    display: inline-block;
+    padding: 16px;
+    position: center;
+    width:60px;
+}
+.button3{
+    color:white;  
+    background-color:lightslategray;  
+    text-align: center;
+    text-justify: auto;
+    margin-left: 10px;
+    font-display:auto ;
+    display: inline-block;
+    padding: 16px;
+    left:40px;
+    position: center;
+    width:60px;
+}
+.button4{
+    color:white;  
+    background-color:lightslategray;  
+    font-display:auto ;
+    display: inline-block;
+    padding: 16px;
+    width:60px;
+}
+.buttoneq{
+    color:black;  
+    background-color:bisque;  
+    text-align: center;
+    text-justify: auto;
+    margin-left: 10px;
+    font-display:auto ;
+    display: inline-block;
+    padding: 16px;
+    left:40px;
+    position: center;
+    width:60px;
+}
+.place{
+    margin-top: 40px ; 
+    position: relative;
+    left: 35px;
+}

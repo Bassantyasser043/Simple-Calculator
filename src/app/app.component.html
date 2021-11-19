@@ -1,0 +1,43 @@
+<div class="display">
+  <div class="boxprint">
+    <p style="margin:auto" class="res">{{equation}}</p>
+    <div><p style="margin:auto" class="res">{{b}}</p></div>
+    </div>
+<div class="place">
+<div>
+    <button class="button4"(click)="pouu('%')" >%</button>
+    <button class="button4" (click)="clear()"><b>CE</b></button>
+    <button class="button4"(click)="clear()"><b>C</b></button>
+    <button class="button3"(click)="delete() "><b>←</b></button>
+  </div>
+  <div>
+    <button class="button" value="1/x"(click)="resin('1/')">1/x</button>
+    <button class="button"(click)="operatortaken('²')">x²</button>
+     <button class="button"(click)="root('√')" >√</button>
+     <button class="button3"(click)="operatortaken('/')" >/</button>
+  </div>
+  <div>
+    <button class="button"(click)="displaynumber('7')" >7</button>
+    <button class="button"(click)="displaynumber('8')" >8</button>
+     <button class="button"(click)="displaynumber('9')" >9</button>
+     <button class="button3"(click)="operatortaken('X')" >X</button>
+  </div>
+  <div>
+    <button class="button"(click)="displaynumber('4')" >4</button>
+    <button class="button"(click)="displaynumber('5')" >5</button>
+    <button class="button"(click)="displaynumber('6')" >6</button>
+    <button class="button3"(click)="operatortaken('-')" >-</button>
+  </div>
+  <div>
+    <button class="button"(click)="displaynumber('1')"> 1</button>
+    <button class="button"(click)="displaynumber('2')">2</button>
+     <button class="button"(click)="displaynumber('3')">3</button>
+     <button class="button3"(click)="operatortaken('+')">+</button>
+  </div>
+  <div>
+    <button class="button" (click)="plusminus('+/-')">+/-</button>
+    <button class="button" (click)="displaynumber('0')"> 0 </button>
+    <button class="button"(click)="dot()"> <b>.</b> </button>
+    <button class="buttoneq" (click)="displayres('=')" ><b>=</b></button>
+  </div></div>
+  </div>
