@@ -29,9 +29,12 @@ front end.
 2- As shown the picture this page will appear in the browser which contains calculator as
 shown in fig.1
 ![image](https://user-images.githubusercontent.com/78346070/174281119-79857a34-a698-4e80-ac9d-476212cb913b.png)
+
 Figure 1 Calculator Interface
 
+
 ![image](https://user-images.githubusercontent.com/78346070/174281173-b35b1b5b-c110-4a68-a54a-6e6e66ebe495.png)
+
 Figure 2 Directly entering the operand.
 
 3- When entering operator, we can enter operator directly so operand 1 will be considered
