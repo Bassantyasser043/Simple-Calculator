@@ -1,27 +1,42 @@
 # Calculator
+## Opening both angular and Spring boot code:
+### Running Angular:
+1- Unzip downloaded file.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
+2- you must have NodeJS and angular-Cli on your computer.
 
-## Development server
+3- After unzipping file, open project file and press right click on the background of the
+folder. Open cmd.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+4- Write npm install in cmd window.
 
-## Code scaffolding
+5- Then you can open the project by writing ng serve –open in cmd window (port number:
+4200).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Running Spring Boot project:
 
-## Build
+6- Open Eclipse ide or any other ide.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+7- Import whole Spring boot folder into ide.
 
-## Running unit tests
+8- Make sure while running the code that port number inside (Crossorigin is the same
+port number of angular project).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### How to run Calculator:
+1- Run Angular Code while Running Spring boot program to be able to receive data from
+front end.
 
-## Running end-to-end tests
+2- As shown the picture this page will appear in the browser which contains calculator as
+shown in fig.1
+![image](https://user-images.githubusercontent.com/78346070/174281119-79857a34-a698-4e80-ac9d-476212cb913b.png)
+Figure 1 Calculator Interface
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![image](https://user-images.githubusercontent.com/78346070/174281173-b35b1b5b-c110-4a68-a54a-6e6e66ebe495.png)
+Figure 2 Directly entering the operand.
 
-## Further help
+3- When entering operator, we can enter operator directly so operand 1 will be considered
+zero as default and the calculator will wait to enter second operand like shown in second
+figure. We can enter operator first then operand like any normal calculator.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4- When we want to evaluate any expression, enter only two operators with one decimal
+point only in each operand then click on equal sign.
