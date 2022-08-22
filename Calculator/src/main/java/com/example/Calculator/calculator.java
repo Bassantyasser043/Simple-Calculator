@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
-@CrossOrigin(origins="http://localhost:65149/")
+@CrossOrigin(origins="http://localhost:4200/")
 @SpringBootApplication
 @RequestMapping(value="cal")
 public class calculator extends SpringBootServletInitializer{
@@ -42,7 +42,7 @@ public class calculator extends SpringBootServletInitializer{
 		}else {
 			res = num1/num2;
 	         return Double. toString (res);
-		} 
+		}
 	}
 	public String power(String x){
 		double num1=Double.parseDouble(x);
@@ -54,7 +54,7 @@ public class calculator extends SpringBootServletInitializer{
 		double num1=Double.parseDouble(x);
 		if(num1==0) {
 			 return ("E");
-			 
+
 		}else {
 			res = 1/num1;
 	         return Double. toString (res);
@@ -102,28 +102,28 @@ return Double.toString(num1-num1*(num2/100));}
 		@GetMapping("evaluate")
 		public String eval(@RequestParam String z,@RequestParam String x,@RequestParam String y){
 		switch(z) {
-		    case " ": 
+		    case " ":
 		    	equation=Addition(x,y);
 		    	System.out.print(equation);
 			    break;
-			case "-": 
+			case "-":
 				equation= subtraction(x,y);
 				break;
-		    case "X": 
+		    case "X":
 		    	equation= multiplication(x,y);
 			    break;
-		     case "²": 
+		     case "²":
 		    	 equation= power(x);
 				 break;
-		     case "/": 
+		     case "/":
 		    	 equation= Divison(x,y);
 				break;
 			default:
 				equation= "E";
 				break;
-		} 
+		}
 		return(equation);
 		}
-		
+
 		}
-	
+
